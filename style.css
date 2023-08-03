@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #E3DADA 30%, #6E1815 30%);
+  height: 20vh
+}
+
+.overlay {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 98%;
+  height: 40px;
+  z-index: 99;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.logo {
+      max-width: 130px;
+      max-height: auto;
+  }
+
+.home {
+  background-image: linear-gradient(to bottom, rgba(110, 24, 21, .3), rgba(110, 24, 21),
+                      rgb(0, 0, 0)), 
+                      url('img/BG.jpg');
+  background-size: cover;
+}
+
+.routes {
+  height: 50px
+}
+
+.logo-small {
+  max-width: 60px;
+      max-height: auto;
+}

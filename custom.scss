@@ -1,0 +1,93 @@
+
+$primary: #6E1815;
+$secondary: #E3DADA;
+$danger: #3D1314;
+$transparent: #000000a3;
+
+
+
+.navbar-light {
+    color: $danger
+}
+.navbar-brand {
+    margin: 0, 10, 10, 0;
+}
+
+    
+
+// Import Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// ************************************ BOOTRSRAP OVERRIDE ***************************************************
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    min-width: 30px;
+}
+.navbar-brand:hover {
+    color: $secondary; 
+    background-color: $primary;
+  }
+  
+  .nav-link:hover {
+    color: $secondary; 
+    background-color: $primary;
+  }
+  
+  .nav-link.active {
+    color: $secondary; 
+    background-color: $primary;
+  }
+
+.card-container {
+    background-color: $primary
+}
+
+
+.offcanvas {
+    width: 200px; 
+  }
+
+
+// ************************************ CUSTOM CSS ***************************************************
+
+//size is XL
+@media(max-width: 1200px) {
+    .custom-h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        max-width: 120px;
+        max-height: auto;
+    }
+}
+
+
+//size is lg
+@media(max-width: 992px) {
+    .custom-h1 {
+        font-size: 1.5rem;
+    }
+    .logo {
+        max-width: 60px;
+        max-height: auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .custom-h1 {
+        font-size: 1.5rem;
+    }
+    .logo {
+        max-width: 60px;
+        max-height: auto;
+    }
+   
+}
+
+
+
